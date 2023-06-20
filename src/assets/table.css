@@ -1,0 +1,60 @@
+.table-container{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2rem auto;
+    overflow-x: auto;
+  }
+  table th, table td {
+    /* border-bottom: 1px solid #ddd; */
+    padding: 8px;
+  }
+
+  .grid{
+    display: -webkit-box;
+    flex-direction: row;
+  }
+
+  .long-text{
+    margin-left: 15px;
+    margin-right: 8px;
+    margin-top: 7px;
+  }
+
+  tr:hover{
+    background: #F4F5F7;
+  }
+
+  thead{
+    border-bottom: 2px solid #ddd;
+  }
+
+  th{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B778C;
+    text-align: left;
+  }
+
+  td{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #172B4D;
+  }
+
+  .email-badge{
+    font-weight: 500; 
+    font-size: 12px; 
+    color: #42526E;
+     background: rgba(242, 113, 39, 0.12); 
+     padding: 4px 4px; 
+     border-radius: 3px;
+  }
